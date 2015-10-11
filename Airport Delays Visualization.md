@@ -57,7 +57,7 @@ g<-plot_grid(ggarrivalin, ggarrivalout, ggdeparturein, ggdepartureout, ncol=2)
 ggdraw(add_sub(g,label="Arrival delays have wider spreads,\n both flying into Austin and flying out.",x=.5,y=.5,vpadding=grid::unit(2,"lines"),fontface="bold",size=15))
 ```
 
-![](Exercises2_files/figure-markdown_github/unnamed-chunk-4-1.png?raw=True)
+![](Images/unnamed-chunk-4-1.png?raw=True)
 
 Calculate average arrival and departure delays by airport.
 
@@ -80,7 +80,7 @@ q<-plot_grid(ggdep,ggarr)
 ggdraw(add_sub(q,label="Avoid TYS if possible",x=.5,y=.5,vpadding=grid::unit(1,"lines"),fontface="bold",size=15))
 ```
 
-![](Exercises2_files/figure-markdown_github/unnamed-chunk-6-1.png?raw=true)
+![](Images/unnamed-chunk-6-1.png?raw=true)
 
 While we have seen the results aggregated over all flights, we may also want to consider only what happens when a flight is in fact delayed. In other words, which airport most quickly resolves delays? We filter by only departure delays so we retain all the flights that made up for the delay. TYS is still the worst, but many other big airports on the East Coast (as well as OKC) take about an hour to resolve departure delays. Southwestern airports only take about 20 minutes to resolve delays.
 
@@ -101,7 +101,7 @@ q<-plot_grid(ggdep,ggarr)
 ggdraw(add_sub(q,label="Avoid the East Coast. Fly to the Southwest.",x=.5,y=.5,vpadding=grid::unit(1,"lines"),fontface="bold",size=15))
 ```
 
-![](Exercises2_files/figure-markdown_github/unnamed-chunk-7-1.png?raw=true)
+![](Images/unnamed-chunk-7-1.png?raw=true)
 
 ### Summary
 
