@@ -6,7 +6,7 @@ A survey of my previous exploits and adventures in data science, organized by la
 
 * Airport Delays Visualizations
 
-* Multinomial Naive Bayes Authorship Attribution
+* Authorship Attribution
 
 ##Python
 * Sentiment Analysis on Edmunds Reviews
