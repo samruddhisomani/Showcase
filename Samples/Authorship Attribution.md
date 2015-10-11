@@ -259,27 +259,3 @@ xtab[xtab$authors_test %in% poor.prediction$authors_test & xtab$number>10 & xtab
     ## 288         TanEeLyn    PeterHumphrey     20         40
     ## 289         TanEeLyn     SarahDavison     11         22
     ## 304       ToddNissen      DavidLawder     12         24
-
-The MLR model has trouble with the same authors, but it misclassifies most of them across a range of other authors. Only JaneMaCartney and TanEelyn show a high percentage of documents misclassified as by one particular other author (Heather Scoffield and Aaron Pressman, respectively).
-
-``` r
-final <- ddply(correct_matrix, .(authors_test), transform, sum.n = length(authors_test))
-
-xtab<-ddply(final, .(authors_test, mlrpredict), summarise,number = length(mlrpredict), proportion = number / sum.n[1] * 100)
-
-poor.prediction<-xtab[xtab$authors_test==xtab$mlrpredict & xtab$proportion<50,]
-
-poor.prediction #number and proportion refer to the number and proportion of predictions for that predicted author and that actual author
-```
-
-    ## [1] authors_test mlrpredict   number       proportion  
-    ## <0 rows> (or 0-length row.names)
-
-``` r
-levels(xtab$mlrpredict)<-levels(xtab$authors_test)
-
-xtab[xtab$authors_test %in% poor.prediction$authors_test & xtab$number>10 & xtab$authors_test!=xtab$mlrpredict,]
-```
-
-    ## [1] authors_test mlrpredict   number       proportion  
-    ## <0 rows> (or 0-length row.names)
