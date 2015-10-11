@@ -4,9 +4,9 @@ A survey of my previous exploits and adventures in data science, organized by la
 
 ##R
 
-* [Airport Delays Visualizations] (Airport Delays Visualization.md)
+* [Airport Delays Visualizations] (Samples/Airport Delays Visualization.md)
 
-* Multinomial Naive Bayes Authorship Attribution
+* [Authorship Attribution] (Samples/Authorship Attribution.md)
 
 ##Python
 * Sentiment Analysis on Edmunds Reviews
