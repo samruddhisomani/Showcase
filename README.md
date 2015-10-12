@@ -13,7 +13,7 @@ A survey of my previous exploits and adventures in data science, organized by la
 
 * Yelp High and Low Reviews Separation*
 
-* Eigenfaces
+* [Eigenfaces] (Eigenfaces.ipynb)
 
  
  =
