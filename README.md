@@ -9,6 +9,12 @@ A survey of my previous exploits and adventures in data science, organized by la
 * [Authorship Attribution] (Samples/Authorship Attribution.md)
 
 ##Python
-* Sentiment Analysis on Edmunds Reviews
+* Sentiment Analysis on Edmunds Reviews*
 
-* Yelp High and Low Reviews Separation
+* Yelp High and Low Reviews Separation*
+
+* Eigenfaces
+
+ 
+ =
+ Asterisks (*) indicate group projects. 
