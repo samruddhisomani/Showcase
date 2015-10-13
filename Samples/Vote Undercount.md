@@ -50,21 +50,72 @@ examine this relationship more closely in a bivariate plot.
 We create bivariate plots to better visualize particular aspects of the
 data. The titles below represent the key takeaways from each plot.
 
-    g1<-ggplot (aes(x=equip, y=pct, fill=equip), data=ga2000)+geom_boxplot(colour='black')+theme_minimal() +xlab("Equipment")+ylab("Percent Undercount")+ggtitle ('Undercounting is consistent across equipment.') + guides (fill=FALSE)
+    g1<-ggplot (aes(x=equip, y=pct, fill=equip), data=ga2000)+geom_boxplot(colour='black')+
+    theme_minimal() +
+    xlab("Equipment")+
+    ylab("Percent Undercount")+
+    ggtitle ('Undercounting is consistent across equipment.') +
+    guides (fill=FALSE)
 
-    g2<-ggplot (aes(x=poor, fill=equip), data=ga2000)+geom_bar(position="fill", aes(colour="black")) + theme_minimal() + ggtitle ('Poor counties use more levers.\nLess poor counties use more optical machines.') + scale_fill_discrete ("Equipment") + scale_x_discrete(labels=c('No', 'Yes'))+ xlab("Poor")+ylab("Fraction of Counties per Category") + scale_color_identity() +theme(legend.key = element_rect(colour = "black", size = 1))
+    g2<-ggplot (aes(x=poor, fill=equip), data=ga2000)+geom_bar(position="fill", aes(colour="black")) +
+    theme_minimal() +
+    ggtitle ('Poor counties use more levers.\nLess poor counties use more optical machines.') +
+    scale_fill_discrete ("Equipment") +
+    scale_x_discrete(labels=c('No', 'Yes'))+
+    xlab("Poor")+
+    ylab("Fraction of Counties per Category") +
+    scale_color_identity() +
+    theme(legend.key = element_rect(colour = "black", size = 1))
 
-    g3<-ggplot (aes(x=equip, y=pct, col=poor), data=ga2000)+geom_point(size=4, position = position_jitter(width=.10), alpha=.5)+theme_minimal()+xlab("Equipment")+ylab("Percent Undercount")+ggtitle ('Poor counties have more undercounting regardless of equipment') + scale_color_discrete("Poor", labels=c('No', 'Yes'))
+    g3<-ggplot (aes(x=equip, y=pct, col=poor), data=ga2000)+
+    geom_point(size=4, position = position_jitter(width=.10), alpha=.5)+theme_minimal()+
+    xlab("Equipment")+
+    ylab("Percent Undercount")+
+    ggtitle ('Poor counties have more undercounting regardless of equipment') +
+    scale_color_discrete("Poor", labels=c('No', 'Yes'))
 
-    g4<-ggplot (aes(x=urban, fill=equip), data=ga2000)+geom_bar(position="fill", aes(color='black')) + theme_minimal() + ggtitle ('More urban counties use optical and punch systems.\nMore rural counties use more lever systems') + scale_fill_discrete ("Equipment") + scale_x_discrete(labels=c('No', 'Yes')) + xlab("Predominantly Urban")+ylab("Fraction of Counties per Category") + scale_color_identity() +theme(legend.key = element_rect(colour = "black", size = 1))
+    g4<-ggplot (aes(x=urban, fill=equip), data=ga2000)+
+    geom_bar(position="fill", aes(color='black')) +
+    theme_minimal() +
+    ggtitle ('More urban counties use optical and punch systems.\nMore rural counties use more lever systems') +
+    scale_fill_discrete ("Equipment") +
+    scale_x_discrete(labels=c('No', 'Yes')) +
+    xlab("Predominantly Urban")+
+    ylab("Fraction of Counties per Category") +
+    scale_color_identity() +
+    theme(legend.key = element_rect(colour = "black", size = 1))
 
-    g5<-ggplot (aes(x=equip, y=pct, col=urban), data=ga2000)+geom_point(size=4, position = position_jitter(width=.10), alpha=.5)+theme_minimal()+xlab("Equipment")+ylab("Percent Undercount")+ggtitle ('Rural counties show more undercounting regardless of equipment') + scale_color_discrete("Urban", labels=c('No', 'Yes'))
+    g5<-ggplot (aes(x=equip, y=pct, col=urban), data=ga2000)+
+    geom_point(size=4, position = position_jitter(width=.10), alpha=.5)+
+    theme_minimal()+
+    xlab("Equipment")+
+    ylab("Percent Undercount")+
+    ggtitle ('Rural counties show more undercounting regardless of equipment') +
+    scale_color_discrete("Urban", labels=c('No', 'Yes'))
 
-    g6<-ggplot (aes(x=atlanta), data=ga2000)+geom_bar(size=4)+theme_minimal()+xlab("Equipment")+ylab("Number of Counties")+ggtitle ('There are too few Atlanta counties to make meaningful comparisons.\n However, Atlanta counties should behave similarly to other urban counties.') + scale_x_discrete("Atlanta", labels=c('No', 'Yes'))
+    g6<-ggplot (aes(x=atlanta), data=ga2000)+
+    geom_bar(size=4)+
+    theme_minimal()+
+    xlab("Equipment")+
+    ylab("Number of Counties")+
+    ggtitle ('There are too few Atlanta counties to make meaningful comparisons.\n However, Atlanta counties should behave similarly to other urban counties.')
+    + scale_x_discrete("Atlanta", labels=c('No', 'Yes'))
 
-    g7<-ggplot (aes(x=equip, y=perAA,fill=equip),data=ga2000)+geom_boxplot()+theme_minimal()+xlab("Equipment")+ylab("Percent African American")+ ggtitle ('Counties that use optical tend to have a lower\npercentages of African Americans.') + scale_fill_discrete(guide=FALSE)
+    g7<-ggplot (aes(x=equip, y=perAA,fill=equip),data=ga2000)+
+    geom_boxplot()+
+    theme_minimal()+
+    xlab("Equipment")+
+    ylab("Percent African American")+
+    ggtitle ('Counties that use optical tend to have a lower\npercentages of African Americans.') +
+    scale_fill_discrete(guide=FALSE)
 
-    g8<-ggplot (aes(x=perAA, y=pct),data=ga2000)+geom_point(aes(color=poor),size=4, alpha=.5)+theme_minimal()+xlab("Percent African American")+ylab("Percent Undercount")+ggtitle ('Percent undercount goes up slightly as percent African American increases, but there\nappears to be a strong division between poor counties and less poor counties') +geom_smooth(se=FALSE, method='lm', colour='black', size=1.1)+ scale_colour_discrete ("Poor",labels=c('<25%','>25%'))
+    g8<-ggplot (aes(x=perAA, y=pct),data=ga2000)+
+    geom_point(aes(color=poor),size=4, alpha=.5)+
+    theme_minimal()+xlab("Percent African American")+
+    ylab("Percent Undercount")+
+    ggtitle ('Percent undercount goes up slightly as percent African American increases, but there\nappears to be a strong division between poor counties and less poor counties') +
+    geom_smooth(se=FALSE, method='lm', colour='black', size=1.1)+
+    scale_colour_discrete ("Poor",labels=c('<25%','>25%'))
 
     grid.arrange(g1,g6,g2,g3,g4,g5,g7,g8,ncol=2)
 
