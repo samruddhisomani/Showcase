@@ -98,7 +98,8 @@ data. The titles below represent the key takeaways from each plot.
     theme_minimal()+
     xlab("Equipment")+
     ylab("Number of Counties")+
-    ggtitle ('There are too few Atlanta counties to make meaningful comparisons.\n However, Atlanta counties should behave similarly to other urban counties.')
+    ggtitle ('There are too few Atlanta counties to make meaningful comparisons.\n
+    However, Atlanta counties should behave similarly to other urban counties.')
     + scale_x_discrete("Atlanta", labels=c('No', 'Yes'))
 
     g7<-ggplot (aes(x=equip, y=perAA,fill=equip),data=ga2000)+
@@ -106,14 +107,16 @@ data. The titles below represent the key takeaways from each plot.
     theme_minimal()+
     xlab("Equipment")+
     ylab("Percent African American")+
-    ggtitle ('Counties that use optical tend to have a lower\npercentages of African Americans.') +
+    ggtitle ('Counties that use optical tend to have a lower\n
+    percentages of African Americans.') +
     scale_fill_discrete(guide=FALSE)
 
     g8<-ggplot (aes(x=perAA, y=pct),data=ga2000)+
     geom_point(aes(color=poor),size=4, alpha=.5)+
     theme_minimal()+xlab("Percent African American")+
     ylab("Percent Undercount")+
-    ggtitle ('Percent undercount goes up slightly as percent African American increases, but there\nappears to be a strong division between poor counties and less poor counties') +
+    ggtitle ('Percent undercount goes up slightly as percent African American increases, but there\n
+    appears to be a strong division between poor counties and less poor counties') +
     geom_smooth(se=FALSE, method='lm', colour='black', size=1.1)+
     scale_colour_discrete ("Poor",labels=c('<25%','>25%'))
 
