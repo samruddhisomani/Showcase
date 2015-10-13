@@ -76,7 +76,7 @@ variety of qualities for each actual quality.
     ggtitle ('Wine Quality Classification') +
     scale_fill_discrete ("Actual Cluster")
 
-![](../Images/unnamed-chunk-28-1.png)
+![](../Images/quality.png)
 
 ### Summary
 
