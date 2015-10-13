@@ -6,7 +6,7 @@ Install the following libraries.
 
 Read in Georgia2000 data with the first row as the variables names.
 
-    ga2000 <- read.csv('https://raw.githubusercontent.com/jgscott/STA380/master/data/georgia2000.csv', header=TRUE)
+    ga2000<-read.csv('https://raw.githubusercontent.com/jgscott/STA380/master/data/georgia2000.csv',header=TRUE)
 
 Calculate additional variables to facilitate analysis of vote
 undercount.
