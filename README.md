@@ -4,16 +4,18 @@ A survey of my previous exploits and adventures in data science, organized by la
 
 ##R
 
-* 
+* [Wine Classification (K-Means Clustering)] (Samples/Wine.md)
 
-* [Authorship Attribution] (Samples/Authorship Attribution.md)
+* [Authorship Attribution (Naïve Bayes and Multinomial Logistic Regression)] (Samples/Authorship Attribution.md)
 
 ##Python
+* [Eigenfaces (Principal Components Analysis)] (Eigenfaces.ipynb)
+
 * Sentiment Analysis on Edmunds Reviews*
 
 * Yelp High and Low Reviews Separation*
 
-* [Eigenfaces] (Eigenfaces.ipynb)
+
 
 ##Visualizations
 * [Airport Delays Visualizations] (Samples/Airport Delays Visualization.md)
