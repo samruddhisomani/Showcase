@@ -4,7 +4,7 @@ A survey of my previous exploits and adventures in data science, organized by la
 
 ##R
 
-* [Airport Delays Visualizations] (Samples/Airport Delays Visualization.md)
+* 
 
 * [Authorship Attribution] (Samples/Authorship Attribution.md)
 
@@ -14,6 +14,11 @@ A survey of my previous exploits and adventures in data science, organized by la
 * Yelp High and Low Reviews Separation*
 
 * [Eigenfaces] (Eigenfaces.ipynb)
+
+##Visualizations
+* [Airport Delays Visualizations] (Samples/Airport Delays Visualization.md)
+
+* [Vote Undercount]  (Samples/Vote Undercount.md)
 
  
  =
