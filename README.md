@@ -11,7 +11,7 @@ A survey of my previous exploits and adventures in data science, organized by la
 ##Python
 * [Eigenfaces (Principal Components Analysis)] (Samples/Eigenfaces.ipynb)
 
-* Sentiment Analysis on Edmunds Reviews* (Samples/Sentiment Analysis.ipynb)
+* [Sentiment Analysis on Edmunds Reviews*] (Samples/Sentiment Analysis.ipynb)
 
 ##Visualizations
 * [Airport Delays Visualizations] (Samples/Airport Delays Visualization.md)
