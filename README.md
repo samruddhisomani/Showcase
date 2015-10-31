@@ -21,7 +21,7 @@ A survey of my previous exploits and adventures in data science, organized by la
 ##Papers
 * [Public Media and Information Poverty] (Samples/Public Media and Information Poverty.pdf)
 
-  _In this paper, I use exploratory data analysis techniques to understand whether publically funded media does service otherwise underserved language communities. I study historical BBC data in English, Hindi, and Urdu to determine whether stories are written especially for each language or simply translated. My research indicates that stories are written separately. Visualizations detailing the evidence--both Google Charts and R ggplot2 graphics--begin on page 15._
+  _In this paper, I use exploratory data analysis techniques to understand whether publically funded media does service otherwise underserved language communities. I study historical BBC data in English, Hindi, and Urdu to determine whether stories are written especially for each language or simply translated. My research indicates that stories are written separately. Visualizations explaining the evidence--both Google Charts and R ggplot2 graphics--begin on page 15._
  
  =
  Asterisks (*) indicate group projects. 
