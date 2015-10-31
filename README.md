@@ -1,6 +1,6 @@
 #Showcase
 
-A survey of my previous exploits and adventures in data science, organized by language and descending in recency. 
+A survey of my previous exploits and adventures in data science, descending in recency. 
 
 ##R
 
