@@ -25,6 +25,7 @@ A survey of my previous exploits and adventures in data science, descending in r
  
  * [Equalizing Access to College (Congressional Advisory Board Report)] ()
  
-  _In this paper, I synthesize a variety of data sources to show empirically that funding undergraduate education via federal grants benefits both individual Americans and American society as a whole. I first examine how a college education affects life after college and then how affordability impacts college attendance.
+  _In this paper, I synthesize a variety of data sources to show empirically that funding undergraduate education via federal grants benefits both individual Americans and American society as a whole. I first examine how a college education affects life after college and then how affordability impacts college attendance._
+
  =
  Asterisks (*) indicate group projects. 
