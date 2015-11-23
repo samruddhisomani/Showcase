@@ -23,7 +23,7 @@ A survey of my previous exploits and adventures in data science, descending in r
 
   _In this paper, I use exploratory data analysis techniques to understand whether publically funded media does service otherwise underserved language communities. I study historical BBC data in English, Hindi, and Urdu to determine whether stories are written especially for each language or simply translated. My research indicates that stories are written separately. Visualizations explaining the evidence--both Google Charts and R ggplot2 graphics--begin on page 15._
  
- * [Equalizing Access to College (Congressional Advisory Board Report)] ()
+* [Equalizing Access to College (Congressional Advisory Board Report)] (Samples/Equalizing Access to College Education.pdf)
  
   _In this paper, I synthesize a variety of data sources to show empirically that funding undergraduate education via federal grants benefits both individual Americans and American society as a whole. I first examine how a college education affects life after college and then how affordability impacts college attendance._
 
