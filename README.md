@@ -20,7 +20,7 @@ A survey of my previous exploits and adventures in data science, descending in r
 
 ##Projects
 
-* [Presidential Campaigns (Marketing Analytics)*] (Samples/Presidential Elections.pdf)
+* [Presidential Campaigns (Marketing Analytics)*] (Samples/Presidential Campaigns.pdf)
 
   _In this presentation, we model the 'swinginess' of a state--to what extent it will be a swing state in that the vote share will be split fairly evenly between Republicans and Democrats. This metric has a 62% correlation with ad spending. We next examine the interaction of swinginess and ad spending: This metric has a 99% correlation with ad spending. We see that ad money should be spent in states with a high level of swinginess and a high number of electoral votes._
 
