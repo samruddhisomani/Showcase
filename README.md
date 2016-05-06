@@ -1,22 +1,7 @@
+
 #Showcase
 
 A survey of my previous exploits and adventures in data science, descending in recency.
-
-##R
-
-* [Wine Classification (K-Means Clustering)] (Samples/Wine.md)
-
-* [Authorship Attribution (Naïve Bayes and Multinomial Logistic Regression)] (Samples/Authorship Attribution.md)
-
-##Python
-* [Eigenfaces (Principal Components Analysis)] (Samples/Eigenfaces.ipynb)
-
-* [Sentiment Analysis on Edmunds Reviews* (Natural Language Processing)] (Samples/Sentiment Analysis.ipynb)
-
-##Visualizations
-* [Airport Delays Visualizations] (Samples/Airport Delays Visualization.md)
-
-* [Vote Undercount]  (Samples/Vote Undercount.md)
 
 ##Projects
 
@@ -35,6 +20,22 @@ A survey of my previous exploits and adventures in data science, descending in r
 * [Equalizing Access to College (Congressional Advisory Board Report)] (Samples/Equalizing Access to College Education.pdf)
 
   _In this paper, I synthesize a variety of data sources to show empirically that funding undergraduate education via federal grants benefits both individual Americans and American society as a whole. I first examine how a college education affects life after college and then how affordability impacts college attendance._
+
+##R
+
+* [Wine Classification (K-Means Clustering)] (Samples/Wine.md)
+
+* [Authorship Attribution (Naïve Bayes and Multinomial Logistic Regression)] (Samples/Authorship Attribution.md)
+
+##Python
+* [Eigenfaces (Principal Components Analysis)] (Samples/Eigenfaces.ipynb)
+
+* [Sentiment Analysis on Edmunds Reviews* (Natural Language Processing)] (Samples/Sentiment Analysis.ipynb)
+
+##Visualizations
+* [Airport Delays Visualizations] (Samples/Airport Delays Visualization.md)
+
+* [Vote Undercount]  (Samples/Vote Undercount.md)
 
  =
  Asterisks (*) indicate group projects.
