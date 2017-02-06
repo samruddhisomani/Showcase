@@ -9,7 +9,7 @@ A survey of my previous exploits and adventures in data science, descending in r
 
   _In this presentation, we model the 'swinginess' of a state--to what extent it will be a swing state in that the vote share will be split fairly evenly between Republicans and Democrats. This metric has a 62% correlation with ad spending. We next examine the interaction of swinginess and ad spending: This metric has a 99% correlation with ad spending. We see that ad money should be spent in states with a high level of swinginess and a high number of electoral votes._
 
-* [No Free Lunch (Advanced Predictive Modeling)*] (Samples/No Free Lunch.pdf)
+* [Predicting Cuisine from Ingredients (Advanced Predictive Modeling)*] (Samples/No Free Lunch.pdf)
 
  _In this presentation, we examine the Yummly data set on Kaggle and analyze whether cuisines can accurately be predicted using just cuisine ingredients without recipe amounts or instructions. We build a variety of models, each of which is roughly 75% accurate, and then combine these into a competitive ensemble that has 78% accuracy, impressive considering the we are categorizing 20 different cuisine classes._
 
