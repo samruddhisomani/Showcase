@@ -1,9 +1,9 @@
 
-#Showcase
+# Showcase
 
 A survey of my previous exploits and adventures in data science, descending in recency.
 
-##Projects
+## Projects
 
 * [Predicting Cuisine from Ingredients (Advanced Predictive Modeling)*] (Samples/No Free Lunch.pdf) [*(Repo)*](https://github.com/samruddhisomani/Cuisine)
 
@@ -21,18 +21,18 @@ A survey of my previous exploits and adventures in data science, descending in r
 
   _In this paper, I synthesize a variety of data sources to show empirically that funding undergraduate education via federal grants benefits both individual Americans and American society as a whole. I first examine how a college education affects life after college and then how affordability impacts college attendance._
 
-##R
+## R
 
 * [Wine Classification (K-Means Clustering)] (Samples/Wine.md)
 
 * [Authorship Attribution (Naïve Bayes and Multinomial Logistic Regression)] (Samples/Authorship Attribution.md)
 
-##Python
+## Python
 * [Eigenfaces (Principal Components Analysis)] (Samples/Eigenfaces.ipynb)
 
 * [Sentiment Analysis on Edmunds Reviews* (Natural Language Processing)] (Samples/Sentiment Analysis.ipynb)
 
-##Visualizations
+## Visualizations
 * [Airport Delays Visualizations] (Samples/Airport Delays Visualization.md)
 
 * [Vote Undercount]  (Samples/Vote Undercount.md)
