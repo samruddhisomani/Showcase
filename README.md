@@ -7,8 +7,8 @@ A survey of my previous exploits and adventures in data science, descending in r
 
 - Predicting Cuisine from Ingredients (Advanced Predictive Modeling)\* [Presentation](https://github.com/samruddhisomani/Showcase/blob/master/Samples/No%20Free%20Lunch.pdf) [Repository](https://github.com/samruddhisomani/Cuisine)
 
- _In this presentation, we examine the Yummly data set on Kaggle and analyze whether cuisines can accurately be predicted using just cuisine ingredients without recipe amounts or instructions. We build a variety of models, each of which is roughly 75% accurate, and then combine these into a competitive ensemble that has 78% accuracy, impressive considering the we are categorizing 20 different cuisine classes._
-
+  _In this presentation, we examine the Yummly data set on Kaggle and analyze whether cuisines can accurately be predicted using just cuisine ingredients without recipe amounts or instructions. We build a variety of models, each of which is roughly 75% accurate, and then combine these into a competitive ensemble that has 78% accuracy, impressive considering the we are categorizing 20 different cuisine classes._
+  
 - Presidential Campaigns (Marketing Analytics)\* [Presentation](https://github.com/samruddhisomani/Showcase/blob/master/Samples/Presidential%20Campaigns.pdf) [Repository](https://github.com/samruddhisomani/MKT_Elections)
 
   _In this presentation, we model the 'swinginess' of a state--to what extent it will be a swing state in that the vote share will be split fairly evenly between Republicans and Democrats. This metric has a 62% correlation with ad spending. We next examine the interaction of swinginess and ad spending: This metric has a 99% correlation with ad spending. We see that ad money should be spent in states with a high level of swinginess and a high number of electoral votes._
@@ -25,7 +25,7 @@ A survey of my previous exploits and adventures in data science, descending in r
 
 - [Wine Classification (K-Means Clustering)](Samples/Wine.md)
 
-- [Authorship Attribution (Naïve Bayes and Multinomial Logistic Regression)](Samples/Authorship Attribution.md)
+- [Authorship Attribution (Naïve Bayes and Multinomial Logistic Regression)](https://github.com/samruddhisomani/Showcase/blob/master/Samples/Authorship%20Attribution.md)
 
 ## Python
 - [Eigenfaces (Principal Components Analysis)](Samples/Eigenfaces.ipynb)
@@ -37,5 +37,5 @@ A survey of my previous exploits and adventures in data science, descending in r
 
 - [Vote Undercount](https://github.com/samruddhisomani/Showcase/blob/master/Samples/Vote%20Undercount.md)
 
- =
+---
  Asterisks (*) indicate group projects.
