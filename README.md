@@ -3,6 +3,11 @@
 
 A survey of my previous exploits and adventures in data science, descending in recency.
 
+## Collaborations and Presentations
+
+- [R ggplot introduction](https://github.com/samruddhisomani/ggplot2Intro/blob/master/introduction_pres.pdf): A ggplot introduction presented at R-Ladies Austin March 1, 2017
+
+
 ## Projects
 
 - [Predicting Cuisine from Ingredients (Advanced Predictive Modeling)\*](https://github.com/samruddhisomani/Showcase/blob/master/Samples/No%20Free%20Lunch.pdf) [Repository](https://github.com/samruddhisomani/Cuisine)
