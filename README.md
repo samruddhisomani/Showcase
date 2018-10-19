@@ -6,7 +6,7 @@ A survey of my previous exploits and adventures in data science, descending in r
 ## Collaborations and Presentations
 
 - [R ggplot introduction](https://github.com/samruddhisomani/ggplot2Intro/blob/master/introduction_pres.pdf): A ggplot introduction presented at R-Ladies Austin March 1, 2017
-
+- [Translating R Hypothesis Testing to Python](https://github.com/samruddhisomani/titanic-hypothesis-testing/blob/master/2016-08-18-TitanicHypothesisTesting-python.ipynb): Translation of a friend's ([@mepa](https://github.com/mepa))'s [R notebook](https://github.com/mepa/titanic-hypothesis-testing/blob/master/2016-08-18-TitanicHypothesisTesting-R.ipynb) to Python
 
 ## Projects
 
